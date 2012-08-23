@@ -1,0 +1,7 @@
+*~
+*.swp
+Temp/*
+Assembly*
+*.sln
+*.userprefs
+/Library
