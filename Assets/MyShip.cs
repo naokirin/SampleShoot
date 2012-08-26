@@ -23,11 +23,5 @@ public class MyShip : MonoBehaviour {
 		float axisHorizontal = Input.GetAxis("Horizontal");
 		float axisVertical = Input.GetAxis ("Vertical");
         transform.Translate(Vector3.right * axisHorizontal * speed * Time.deltaTime + Vector3.forward * axisVertical * speed * Time.deltaTime);
-		/*float maxSpeed = 1;
-		float currentSpeed = GetComponent<CharacterController>().velocity.x;
-		transform.localRotation.eulerAngles.Set(
-			transform.localRotation.eulerAngles.x,
-			transform.localRotation.eulerAngles.y,
-			-45  * currentSpeed / maxSpeed);*/
 	}
 }
